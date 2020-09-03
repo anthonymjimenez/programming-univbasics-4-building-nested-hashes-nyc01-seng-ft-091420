@@ -36,10 +36,10 @@ def monopoly_with_third_tier
   }
 
   railroads[:railroads][:name] = {
-    :reading_railroad: {},
-    :pennsylvania_railroad: {},
-    :b_and_o_railroad: {},
-    :shortline_railroad: {}
+    :reading_railroad => {},
+    :pennsylvania_railroad => {},
+    :b_and_o_railroad =>  {},
+    :shortline_railroad => {}
   }
   railroads
 end
