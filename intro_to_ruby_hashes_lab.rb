@@ -63,4 +63,6 @@ def monopoly_with_fourth_tier
   railroad[:railroads][:name][:shortline_railroad] = {
     :mortgage_value => 100
   }
+
+  railroad
 end
