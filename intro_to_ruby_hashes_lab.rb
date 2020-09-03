@@ -44,7 +44,6 @@ def monopoly_with_third_tier
   railroads
 end
 
-puts monopoly_with_third_tier
 def monopoly_with_fourth_tier
   # When you start writing the implementation for this method, copy the Hash
   # you built in the previous method. Run the tests. They will fail, but
@@ -52,16 +51,16 @@ def monopoly_with_fourth_tier
   # complexity.
   railroad = monopoly_with_third_tier
 
-  railroad[:railroads][:name]["reading_railroad"] = {
+  railroad[:railroads][:name][:reading_railroad] = {
     :mortgage_value => 100
   }
-  railroad[:railroads][:name]["pennsylvania_railroad"] = {
+  railroad[:railroads][:name][:pennsylvania_railroad] = {
     :mortgage_value => 100
   }
-  railroad[:railroads][:name]["b_and_o_railroad"] = {
+  railroad[:railroads][:name][:b_and_o_railroad] = {
     :mortgage_value => 100
   }
-  railroad[:railroads][:name]["shortline_railroad"] = {
+  railroad[:railroads][:name][:shortline_railroad] = {
     :mortgage_value => 100
   }
 end
